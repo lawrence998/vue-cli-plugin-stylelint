@@ -2,7 +2,7 @@ const generateWithPlugin = require('@vue/cli-test-utils/generateWithPlugin');
 
 test('default', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {}
   });
@@ -13,7 +13,7 @@ test('default', async () => {
 
 test('standard', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
       config: 'stylelint-config-standard'
@@ -26,7 +26,7 @@ test('standard', async () => {
 
 test('primer', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
       config: 'stylelint-config-primer'
@@ -37,22 +37,22 @@ test('primer', async () => {
   expect(pkg.devDependencies).toHaveProperty('stylelint-config-primer');
 });
 
-test('winner-fed', async () => {
+test('lawrence_ch', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
-      config: '@winner-fed/stylelint-config-win'
+      config: '@lawrence_ch/stylelint-config-win'
     }
   });
 
   expect(pkg.scripts['lint:style']).toBeTruthy();
-  expect(pkg.devDependencies).toHaveProperty('@winner-fed/stylelint-config-win');
+  expect(pkg.devDependencies).toHaveProperty('@lawrence_ch/stylelint-config-win');
 });
 
 test('custom preset', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
       config: {
@@ -76,7 +76,7 @@ test('custom preset', async () => {
 
 test('lint on save', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
       lintStyleOn: 'build'
@@ -87,7 +87,7 @@ test('lint on save', async () => {
 
 test('lint on commit', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
       lintStyleOn: 'commit'
@@ -103,7 +103,7 @@ test('lint on commit', async () => {
 
 test('cancel', async () => {
   const { pkg } = await generateWithPlugin({
-    id: '@winner-fed/vue-cli-plugin-stylelint',
+    id: '@lawrence_ch/vue-cli-plugin-stylelint',
     apply: require('../generator'),
     options: {
       overwriteConfig: 'abort'

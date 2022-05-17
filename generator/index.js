@@ -33,9 +33,9 @@ module.exports = (api, options = {}) => {
   if (typeof config === 'string' || Array.isArray(config)) {
     pkg.stylelint.extends = config;
     if (typeof config === 'string') {
-      if (config === '@winner-fed/stylelint-config-win') {
+      if (config === '@lawrence_ch/stylelint-config-win') {
         Object.assign(pkg.devDependencies, {
-          '@winner-fed/stylelint-config-win': '^0.1.0'
+          '@lawrence_ch/stylelint-config-win': '^0.1.0'
         });
       }
     }

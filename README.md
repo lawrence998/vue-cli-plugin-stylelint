@@ -1,4 +1,4 @@
-# @winner-fed/vue-cli-plugin-stylelint
+# @lawrence_ch/vue-cli-plugin-stylelint
 
 > stylelint plugin for vue-cli
 
@@ -40,12 +40,12 @@ module.exports = {
 ## Installing in an already created project
 
 ```
-npm install -D @winner-fed/vue-cli-plugin-stylelint
-vue invoke @winner-fed/vue-cli-plugin-stylelint
+npm install -D @lawrence_ch/vue-cli-plugin-stylelint
+vue invoke @lawrence_ch/vue-cli-plugin-stylelint
 ```
 
 > There is also a shorthand to invoke the plugin  
-> `vue invoke @winner-fed/stylelint`
+> `vue invoke @lawrence_ch/stylelint`
 
 ## webpack-chain Injections
 

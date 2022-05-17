@@ -1,3 +1,3 @@
 module.exports = {
-  extends: '@winner-fed/win'
+  extends: '@lawrence_ch/win'
 };

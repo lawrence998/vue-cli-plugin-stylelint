@@ -1,5 +1,5 @@
 {
-  "name": "@winner-fed/vue-cli-plugin-stylelint",
+  "name": "@lawrence_ch/vue-cli-plugin-stylelint",
   "version": "1.0.4",
   "description": "stylelint plugin for vue-cli",
   "main": "index.js",
@@ -14,19 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cloud-templates/vue-cli-plugin-stylelint.git"
+    "url": "git+https://github.com/lawrence998/vue-cli-plugin-stylelint.git"
   },
   "keywords": [
     "vue",
     "cli",
     "stylelint"
   ],
-  "author": "winner-fed",
+  "author": "lawrence_ch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloud-templates/vue-cli-plugin-stylelint/issues"
+    "url": "https://github.com/lawrence998/vue-cli-plugin-stylelint/issues"
   },
-  "homepage": "https://github.com/cloud-templates/vue-cli-plugin-stylelint#readme",
+  "homepage": "https://github.com/lawrence998/vue-cli-plugin-stylelint#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "inquirer": "^7.3.2",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "@vue/cli": "^3.3.0",
     "@vue/cli-test-utils": "^3.3.0",
-    "@winner-fed/eslint-config-win": "^1.0.2",
+    "@lawrence_ch/eslint-config-win": "^1.0.2",
     "babel-eslint": "^10.1.0",
     "cross-env": "^5.2.0",
     "eslint": "^7.2.0",
